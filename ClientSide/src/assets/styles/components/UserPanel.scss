@@ -1,0 +1,22 @@
+.user-panel-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 ;
+    background-color: $clr4;
+    
+    h3 {
+        margin-left: 30px;
+    }
+    .control-panel {
+        display: flex;
+        align-items: center;
+        
+        img {
+            margin: 0 30px;
+            width: 60px;
+            cursor: pointer;
+        }
+    }
+}

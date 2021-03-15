@@ -1,0 +1,45 @@
+.modal-container {
+    text-align: center;
+    .curr-event-details {
+        .event-details-admin {
+display: flex;
+align-items: center;
+justify-content: space-between;
+svg{
+    cursor: pointer;
+}
+
+        }
+        .location-subtitle{
+            font-size: rem(12px);
+            margin-bottom: 10px;
+        }
+        .event-hours {
+            margin-bottom: 25px;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        .users-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        }
+        .users-info {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: rem(10px);
+            p {
+                margin-top: 3px;
+                padding: 3px;
+            }
+        }
+        div {
+            button {
+                margin-top: 15px;
+            }
+        }
+    }
+}

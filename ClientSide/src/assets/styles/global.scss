@@ -1,0 +1,24 @@
+// Setup
+@import "setup/_variables.scss";
+@import "setup/_functions.scss";
+@import "setup/_mixins.scss";
+@import "setup/_typography.scss";
+
+// Basics
+@import "basics/_helpers.scss";
+@import "basics/_layout.scss";
+@import "basics/_base.scss";
+@import "basics/_links.scss";
+@import "basics/_buttons.scss";
+
+// Components
+@import "components/MainApp.scss";
+@import "components/Navbar.scss";
+@import "components/UserPanel.scss";
+@import "components/Profile.scss";
+@import "components/Schedule.scss";
+@import "components/EventDetails.scss";
+@import "components/ControlPanel.scss";
+@import "components/Modal.scss";
+@import "components/Clubs.scss";
+@import "components/Home.scss";

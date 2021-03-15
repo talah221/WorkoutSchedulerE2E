@@ -1,0 +1,61 @@
+{
+    "users": [
+        {
+            "_id": "u1",
+            "fullName": "Tal Lahyani",
+            "password": "1234",
+            "activeClubs": [
+                {
+                    "id": "c01",
+                    "expiration": 1611111111111,
+                    "isAdmin": false
+                }
+            ],
+            "imageUrl": "https://cdn2.iconfinder.com/data/icons/winter-sport-vol-1/512/8-01-256.png",
+            "workouts": [
+                1611111111110,
+                1511111111111,
+                1411111111111
+            ]
+        },
+        {
+            "_id": "u2",
+            "fullName": "admin",
+            "password": "admin",
+            "activeClubs": [
+                {
+                    "id": "c01",
+                    "expiration": 1611111111111,
+                    "isAdmin": true
+                }
+            ],
+            "imageUrl": "https://cdn2.iconfinder.com/data/icons/winter-sport-vol-1/512/8-01-256.png",
+            "workouts": [
+                1611111111110,
+                1511111111111,
+                1411111111111
+            ]
+        }
+    ],
+    "clubs": [
+        {
+            "_id": "c101",
+            "title": "Crossfit Bat Yam",
+            "subtitle": "Crossfit",
+            "imageUrl": "https://cdn1.iconfinder.com/data/icons/sport-collection/100/Sport-002-256.png",
+            "admins": [
+                "u2"
+            ]
+        },
+        {
+            "_id": "c102",
+            "title": "Fitness Studio Bat Yam",
+            "subtitle": "Studio",
+            "imageUrl": "https://cdn1.iconfinder.com/data/icons/sport-collection/100/Sport-002-256.png",
+            "admins": [
+                "u2"
+            ],
+            "classes":[]
+        }
+    ]
+}

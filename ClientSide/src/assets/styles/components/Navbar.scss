@@ -1,0 +1,27 @@
+nav {
+    bottom: 0;
+    width: 100%;
+    margin-top: 88px;
+    .nav-container {
+        background-color: $clr1;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: $clr4;
+        margin: 10.5px;
+        z-index: 999;
+    }
+    .active {
+        transition: 2s;
+        background-color: $clr4;
+        border-radius: 25px;
+    }
+    img {
+        width: 45px;
+    }
+}

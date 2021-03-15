@@ -1,0 +1,17 @@
+.modal-container {
+    button{
+    }
+    .create-btn{
+        margin: 20px 0;
+    }
+    .curr-event-details {
+
+        .admin-btns {
+            display: flex;
+            flex-direction: column;
+        }
+        .event-hours{
+            flex-direction: column;
+        }
+    }
+}

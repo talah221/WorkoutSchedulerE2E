@@ -1,0 +1,59 @@
+.clubs-container {
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+        color: $clr1;
+    }
+    .membership-container {
+        img {
+            width: 50px;
+            grid-column: 1;
+            grid-row: 1;
+            display: flex;
+            justify-self: center;
+        }
+        margin-bottom: 20px;
+        box-shadow: 5px 4px 7px 0px $clr1;
+        border-radius: 6px;
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        padding: 15px 0;
+        .club-details {
+            margin-top: 15px;
+            p {
+                margin: 0;
+                padding: 0;
+              margin-bottom: 10px;
+            }
+            a{
+                color: $clr2;
+                text-decoration: none;
+                padding: 2px 8px;
+                border-radius: 10px;
+                transition: 0.7s;
+                &:hover{
+                    color: $clr5;
+                    background-color: $clr2;
+                    &:after{
+                        content: "→"
+                    }
+
+
+                }
+            }
+        }
+        > * {
+            grid-column: 2;
+
+            &.full {
+                grid-column: 1 /-1;
+            }
+        }
+        .membership-title {
+            border-bottom: 1px solid $clr4;
+            h5 {
+                color: $clr3;
+            }
+        }
+    }
+}
